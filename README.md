@@ -3,7 +3,41 @@
 An advanced IoT-based Smart Home automation system using ESP32, Firebase Realtime Database, and multiple sensors including IR, DHT22, and Gas sensor with real-time control for door, fan, LED, and alerts.
 
 ---
+          +----------------------+
+          |      5V INPUT        |
+          | (USB / Adapter 12V)  |
+          +----------+-----------+
+                     |
+              [Buck Converter 5V]
+                     |
+         +-----------+------------+
+         |                        |
+     ESP32 (3.3V)          Servo Power 5V
+         |
+------------------------------------------------
+| Sensors + Modules                             |
+| DHT22   -> GPIO 4                            |
+| IR      -> GPIO 15                           |
+| MQ-5    -> GPIO 34 (ADC)                     |
+| Button  -> GPIO 23                           |
+| LED     -> GPIO 14                           |
+| Fan PWM -> GPIO 12                           |
+| Buzzer  -> GPIO 13                           |
+| Servo   -> GPIO 26                           |
+------------------------------------------------
+         |
+     Firebase WiFi Cloud
+ESP32
+│
+├── Sensors (DHT22, IR, MQ Gas)
+├── Actuators (Servo, Buzzer, LED, Fan)
+│
+├── WiFi Connection
+│
+└── Firebase Realtime Database
+└── Web / Mobile Dashboard
 
+     
 ## 🚀 Features
 
 ### 🔐 Smart Door System
