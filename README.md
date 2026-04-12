@@ -31,3 +31,4 @@ An advanced IoT-based Smart Home automation system using ESP32, Firebase Realtim
 
 ## 🧠 System Architecture
 
+<img width="1107" height="882" alt="image" src="https://github.com/user-attachments/assets/2e2643bb-eb39-4244-86ea-21fa2fe1d081" />
