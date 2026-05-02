@@ -57,5 +57,5 @@ ESP32
 
 ## 🧠 System Architecture
 <img width="1107" height="882" alt="image" src="https://github.com/user-attachments/assets/0445b1ce-f5a1-4dff-b63c-bbc1f7a34ec1" />
-<img width="1536" height="1024" alt="SmartGuard IoT home PCB design" src="https://github.com/user-attachments/assets/301c537d-4df2-4d05-8166-7bf5f164aed1" />
+<img width="767" height="543" alt="citcuit" src="https://github.com/user-attachments/assets/d839f54e-f2ec-428d-8976-9f971505394f" />
 
