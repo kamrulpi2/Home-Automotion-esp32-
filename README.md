@@ -1,7 +1,7 @@
 https://homeautomotion.netlify.app/
 
 # 🏠 ESP32 Smart Home IoT System (Firebase + Servo + Sensors)
-
+ 
 An advanced IoT-based Smart Home automation system using ESP32, Firebase Realtime Database, and multiple sensors including IR, DHT22, and Gas sensor with real-time control for door, fan, LED, and alerts.
 
 ---
